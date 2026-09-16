@@ -16,4 +16,5 @@ crash.*.log
 # Sensitive variable files if used for secrets
 *.tfvars
 *.tfvars.json
+!terraform.tfvars
 

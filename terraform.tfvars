@@ -1,0 +1,11 @@
+resource_group_display_name = "rg-tf-labs"
+deployment_region           = "West Europe"
+network_name                = "vnet-tf-labs"
+vnet_address_space          = ["10.0.0.0/16"]
+web_subnet_name             = "snet-web"
+web_subnet_cidr             = ["10.0.1.0/24"]
+web_nsg_name                = "nsg-web"
+server_name                 = "vm-web-01"
+server_nic_name             = "nic-web-01"
+server_size                 = "Standard_B1s"
+server_admin_user           = "azureadmin"
