@@ -1,5 +1,5 @@
 resource_group_display_name = "rg-tf-labs"
-deployment_region           = "West Europe"
+deployment_region           = "East US"
 network_name                = "vnet-tf-labs"
 vnet_address_space          = ["10.0.0.0/16"]
 web_subnet_name             = "snet-web"
