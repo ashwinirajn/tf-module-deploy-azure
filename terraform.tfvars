@@ -7,5 +7,5 @@ web_subnet_cidr             = ["10.0.1.0/24"]
 web_nsg_name                = "nsg-web"
 server_name                 = "vm-web-01"
 server_nic_name             = "nic-web-01"
-server_size                 = "Standard_B1s"
+server_size                 = "Standard_D2als_v7"
 server_admin_user           = "azureadmin"
